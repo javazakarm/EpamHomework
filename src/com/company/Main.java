@@ -8,6 +8,7 @@ import java.util.LinkedList;
 
 public class Main {
     public static void main(String[] args) {
+
         ArrayList<Students> students = new ArrayList<Students>();
         Students s1 = new Students("Aram", "Manukyan", 20);
         Students s2 = new Students("Mane", "Vardanyan", 19);
@@ -54,6 +55,7 @@ public class Main {
         studentsDynamicLinkedList.print();
         System.out.println(studentsDynamicLinkedList.size());
         studentsDynamicLinkedList.pop();
+
     }
 }
 
